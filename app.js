@@ -1,39 +1,39 @@
 var datos = [
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
   {
     pregunta: "¿Como te llamas?",
-    respuessta: "Que te importa"
+    respuesta: "Que te importa"
   },
 ]
 
@@ -79,7 +79,7 @@ function hacerPregunta(index){
   //respusta del bot
   setTimeout(function(){ 
     var chatNewThread = document.createElement('li'),
-      chatNewMessage = document.createTextNode(datos[index].respuessta);
+      chatNewMessage = document.createTextNode(datos[index].respuesta);
 
     // Add message to chat thread and scroll to bottom
     chatNewThread.appendChild(chatNewMessage);
